@@ -1,9 +1,0 @@
-{
-  "extends": "@repo/typescript-config/vue-library.json",
-  "include": ["."],
-  "exclude": ["dist", "build", "node_modules"],
-  "compilerOptions": {
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext"
-  }
-}
