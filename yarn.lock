@@ -1633,6 +1633,127 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@master/colors@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "@master/colors@npm:2.1.0"
+  checksum: 10c0/078dc6dfe37b2fb8555cd20f48d06f749d1207857c66dac18dabee7b5e3308f1d5d5828c1bde4358095e1b00ba7020256bdfaea933d50cafe9f239ec31a27c69
+  languageName: node
+  linkType: hard
+
+"@master/css-cli@npm:^2.0.0-rc.47":
+  version: 2.0.0-rc.47
+  resolution: "@master/css-cli@npm:2.0.0-rc.47"
+  dependencies:
+    "@master/css": "npm:^2.0.0-rc.47"
+    "@master/css-explore-config": "npm:^2.0.0-rc.47"
+    "@master/css-extractor": "npm:^2.0.0-rc.47"
+    "@master/css-server": "npm:^2.0.0-rc.47"
+    "@techor/extend": "npm:^3.1.7"
+    "@techor/fs": "npm:^3.1.7"
+    "@techor/glob": "npm:^3.1.7"
+    "@techor/log": "npm:^3.1.7"
+    bytes: "npm:^3.1.2"
+    commander: "npm:^12.0.0"
+    minimatch: "npm:^9.0.3"
+    pretty-hrtime: "npm:^1.0.3"
+  bin:
+    mastercss: dist/bin/index.mjs
+    mcss: dist/bin/index.mjs
+  checksum: 10c0/e8f728986a3156577c48d2afe678b58d96053742b88cbd1835d4b43c137035324ef67efb0137eb0b9704b4a09490bdd1c730e5f04f4c681e03ef656c292fad1a
+  languageName: node
+  linkType: hard
+
+"@master/css-explore-config@npm:^2.0.0-rc.47":
+  version: 2.0.0-rc.47
+  resolution: "@master/css-explore-config@npm:2.0.0-rc.47"
+  dependencies:
+    "@techor/log": "npm:^3.1.7"
+    explore-config: "npm:^3.1.7"
+  checksum: 10c0/a39e06272649e5217bd6f8f8d037fc99a85ddc9a8754331c12df3fe7a88189a56f97a0c20dd81e9a5120d2e6d010ddf1d34d4b7cc2368cff134172ef0b3d6b2a
+  languageName: node
+  linkType: hard
+
+"@master/css-extractor@npm:^2.0.0-rc.47":
+  version: 2.0.0-rc.47
+  resolution: "@master/css-extractor@npm:2.0.0-rc.47"
+  dependencies:
+    "@master/css": "npm:^2.0.0-rc.47"
+    "@master/css-explore-config": "npm:^2.0.0-rc.47"
+    "@master/css-validator": "npm:^2.0.0-rc.47"
+    "@techor/extend": "npm:^3.1.7"
+    "@techor/glob": "npm:^3.1.7"
+    "@techor/log": "npm:^3.1.7"
+    chokidar: "npm:^4.0.2"
+    explore-config: "npm:^3.1.7"
+    minimatch: "npm:^10.0.1"
+  checksum: 10c0/b9f5bc407b692c000551f480e1d58b1a3b583b3947f46666f6805ac218eb673dc67d10112c37d825e778877dce29863c97b597296bd321b01a2400a0deb6d536
+  languageName: node
+  linkType: hard
+
+"@master/css-runtime@npm:^2.0.0-rc.47":
+  version: 2.0.0-rc.47
+  resolution: "@master/css-runtime@npm:2.0.0-rc.47"
+  dependencies:
+    "@master/css": "npm:^2.0.0-rc.47"
+  checksum: 10c0/26cbe5aa076fdcd00573ea7cc4df9940e6ea242c67506ef8225ea26687a6f06835fe209c0092b2bbb51ef2ced717817882bcc2ef570c700f30fc40e8c2be9e87
+  languageName: node
+  linkType: hard
+
+"@master/css-server@npm:^2.0.0-rc.47":
+  version: 2.0.0-rc.47
+  resolution: "@master/css-server@npm:2.0.0-rc.47"
+  dependencies:
+    "@master/css": "npm:^2.0.0-rc.47"
+    dom-serializer: "npm:^2.0.0"
+    domhandler: "npm:^5.0.3"
+    htmlparser2: "npm:^9.1.0"
+  checksum: 10c0/7725b3276a8541b77bcb6e04436b4b131eae40672e1f819e679254fd71d791cc30b5f6ae82c2951a041ddb4ec25d274f2d39d3cda6ee40c0f2d3b4f551972d18
+  languageName: node
+  linkType: hard
+
+"@master/css-validator@npm:^2.0.0-rc.47":
+  version: 2.0.0-rc.47
+  resolution: "@master/css-validator@npm:2.0.0-rc.47"
+  dependencies:
+    "@master/css": "npm:^2.0.0-rc.47"
+    css-tree: "npm:^3.0.1"
+  checksum: 10c0/e8867fd5ec6d1f1964407db329423ddb24a23b25cf92bbb023cba3dec74453045a349cc3b6be766eb5e49f072242da4007a7ca8fc1da3991005db6fecc9bd45e
+  languageName: node
+  linkType: hard
+
+"@master/css.react@npm:^2.0.0-rc.47":
+  version: 2.0.0-rc.47
+  resolution: "@master/css.react@npm:2.0.0-rc.47"
+  dependencies:
+    "@master/css-runtime": "npm:^2.0.0-rc.47"
+  peerDependencies:
+    "@types/react": ">=16"
+    react: ">=16"
+  checksum: 10c0/e7468c5df4a48ccdb606611cab74429b01ae3d8eb2dd907ff6e46f085879be7635713114a782b2fbb0bd26bb85c8b58828b7c7dd6e514f8e73224e73ce676d20
+  languageName: node
+  linkType: hard
+
+"@master/css@npm:^2.0.0-rc.47":
+  version: 2.0.0-rc.47
+  resolution: "@master/css@npm:2.0.0-rc.47"
+  dependencies:
+    "@master/colors": "npm:^2.1.0"
+    "@master/normal.css": "npm:^3.1.0"
+    "@techor/extend": "npm:^3.1.7"
+    csstype: "npm:^3.1.3"
+  bin:
+    css: dist/bin/index.mjs
+  checksum: 10c0/8a659cc72613b262cf69c3ffb9ae8a6642290f8dbffc69210867845538303ccdcda54af30a8dd7ac2a3a62b3acafae5c54623b9f66c8cfcb5c93da9fc5686c45
+  languageName: node
+  linkType: hard
+
+"@master/normal.css@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "@master/normal.css@npm:3.1.0"
+  checksum: 10c0/653e61fd82692ee037cb0dce6015fb6f12e95e16dc388166c3aef441a4eb00333168de227d668829710dbf7343dec82897c78ff3ba1d1d5d1e9ca3b57c9fbd5a
+  languageName: node
+  linkType: hard
+
 "@mdx-js/react@npm:^3.0.0":
   version: 3.1.0
   resolution: "@mdx-js/react@npm:3.1.0"
@@ -3423,6 +3544,37 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@techor/extend@npm:^3.1.7":
+  version: 3.1.7
+  resolution: "@techor/extend@npm:3.1.7"
+  checksum: 10c0/258c2f859b9bcbc048b143c3632b1487d5973ed6224d318739eee0980a08fdbc6e5255a510ae701a53f6377dff1ff00eb5324e6a082cb9ce8d171720d0183cd2
+  languageName: node
+  linkType: hard
+
+"@techor/fs@npm:^3.1.7":
+  version: 3.1.7
+  resolution: "@techor/fs@npm:3.1.7"
+  checksum: 10c0/e078a96bf09411ae3df4dc68eb30aa9c7a6ab4b274cc91947cb4786b50c8560617dcf73838e065acd94045b15409849ca6cf3f9dc78e6959cecf3b141db6cd14
+  languageName: node
+  linkType: hard
+
+"@techor/glob@npm:^3.1.7":
+  version: 3.1.7
+  resolution: "@techor/glob@npm:3.1.7"
+  dependencies:
+    fast-glob: "npm:^3.3.0"
+    upath: "npm:^2.0.1"
+  checksum: 10c0/23a957819d0fe8837665abe4e9c5b44468aff58a7c15a6e822f95e978e90c8fca15c27532b2068de74aefac679336d2d36afbb3bcc7c12ddb3c3818d1a76acc8
+  languageName: node
+  linkType: hard
+
+"@techor/log@npm:^3.1.7":
+  version: 3.1.7
+  resolution: "@techor/log@npm:3.1.7"
+  checksum: 10c0/c3e627ce00ee98d5d915fdb0e7444ac5d8b519bfe65d676bbc646fe9a897dc054751f72a01196c8fb30db15724f440f39955e6e783a03b478f237e0080015ae5
+  languageName: node
+  linkType: hard
+
 "@testing-library/dom@npm:10.4.0":
   version: 10.4.0
   resolution: "@testing-library/dom@npm:10.4.0"
@@ -5100,6 +5252,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"bytes@npm:^3.1.2":
+  version: 3.1.2
+  resolution: "bytes@npm:3.1.2"
+  checksum: 10c0/76d1c43cbd602794ad8ad2ae94095cddeb1de78c5dddaa7005c51af10b0176c69971a6d88e805a90c2b6550d76636e43c40d8427a808b8645ede885de4a0358e
+  languageName: node
+  linkType: hard
+
 "c12@npm:2.0.1, c12@npm:^2.0.1":
   version: 2.0.1
   resolution: "c12@npm:2.0.1"
@@ -5353,6 +5512,15 @@ __metadata:
   dependencies:
     readdirp: "npm:^4.0.1"
   checksum: 10c0/4bb7a3adc304059810bb6c420c43261a15bb44f610d77c35547addc84faa0374265c3adc67f25d06f363d9a4571962b02679268c40de07676d260de1986efea9
+  languageName: node
+  linkType: hard
+
+"chokidar@npm:^4.0.2":
+  version: 4.0.3
+  resolution: "chokidar@npm:4.0.3"
+  dependencies:
+    readdirp: "npm:^4.0.1"
+  checksum: 10c0/a58b9df05bb452f7d105d9e7229ac82fa873741c0c40ddcc7bb82f8a909fbe3f7814c9ebe9bc9a2bef9b737c0ec6e2d699d179048ef06ad3ec46315df0ebe6ad
   languageName: node
   linkType: hard
 
@@ -5769,6 +5937,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"cross-import@npm:^3.1.7":
+  version: 3.1.7
+  resolution: "cross-import@npm:3.1.7"
+  dependencies:
+    jiti: "npm:^2.4.1"
+    sucrase: "npm:^3.35.0"
+  checksum: 10c0/9c9bc0c6223f0f2b5d1543230043f89a8b7469145769a577d43f1f168a2767f4c612926e5edf58f8c63e00511b26a80dafad5bf4b53093c389e07ea41fc6f5c9
+  languageName: node
+  linkType: hard
+
 "cross-spawn@npm:^7.0.0, cross-spawn@npm:^7.0.2, cross-spawn@npm:^7.0.3, cross-spawn@npm:^7.0.5, cross-spawn@npm:^7.0.6":
   version: 7.0.6
   resolution: "cross-spawn@npm:7.0.6"
@@ -5818,6 +5996,16 @@ __metadata:
     mdn-data: "npm:2.0.30"
     source-map-js: "npm:^1.0.1"
   checksum: 10c0/6f8c1a11d5e9b14bf02d10717fc0351b66ba12594166f65abfbd8eb8b5b490dd367f5c7721db241a3c792d935fc6751fbc09f7e1598d421477ad9fadc30f4f24
+  languageName: node
+  linkType: hard
+
+"css-tree@npm:^3.0.1":
+  version: 3.1.0
+  resolution: "css-tree@npm:3.1.0"
+  dependencies:
+    mdn-data: "npm:2.12.2"
+    source-map-js: "npm:^1.0.1"
+  checksum: 10c0/b5715852c2f397c715ca00d56ec53fc83ea596295ae112eb1ba6a1bda3b31086380e596b1d8c4b980fe6da09e7d0fc99c64d5bb7313030dd0fba9c1415f30979
   languageName: node
   linkType: hard
 
@@ -6301,23 +6489,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"docs@workspace:apps/next-docs":
-  version: 0.0.0-use.local
-  resolution: "docs@workspace:apps/next-docs"
-  dependencies:
-    "@repo/eslint-config": "npm:*"
-    "@repo/typescript-config": "npm:*"
-    "@repo/ui": "npm:*"
-    "@types/node": "npm:^20"
-    "@types/react": "npm:18.3.1"
-    "@types/react-dom": "npm:18.3.0"
-    next: "npm:^15.0.0"
-    react: "npm:^19.0.0"
-    react-dom: "npm:^19.0.0"
-    typescript: "npm:5.5.4"
-  languageName: unknown
-  linkType: soft
-
 "doctrine@npm:^2.1.0":
   version: 2.1.0
   resolution: "doctrine@npm:2.1.0"
@@ -6425,6 +6596,17 @@ __metadata:
     domelementtype: "npm:^2.3.0"
     domhandler: "npm:^5.0.3"
   checksum: 10c0/342d64cf4d07b8a0573fb51e0a6312a88fb520c7fefd751870bf72fa5fc0f2e0cb9a3958a573610b1d608c6e2a69b8e9b4b40f0bfb8f87a71bce4f180cca1887
+  languageName: node
+  linkType: hard
+
+"domutils@npm:^3.1.0":
+  version: 3.2.1
+  resolution: "domutils@npm:3.2.1"
+  dependencies:
+    dom-serializer: "npm:^2.0.0"
+    domelementtype: "npm:^2.3.0"
+    domhandler: "npm:^5.0.3"
+  checksum: 10c0/af2a8e28fe51137307d2400c4b6483a3294ac8f784b14fc74b67f3aca3aa53a63144bd9e2bb96f23174c0c1aa680544bf2d77b4cc94e6f90f33314ed65c12a4f
   languageName: node
   linkType: hard
 
@@ -7573,6 +7755,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"explore-config@npm:^3.1.7":
+  version: 3.1.7
+  resolution: "explore-config@npm:3.1.7"
+  dependencies:
+    cross-import: "npm:^3.1.7"
+  checksum: 10c0/49e7412dc2e3af28fa32951c780b11690b74770d1e9e42ee718379e4a9d1c457e427c126c2125dbec6356beebf260c9687c631a17a95a257e1574c735c97e27b
+  languageName: node
+  linkType: hard
+
 "exponential-backoff@npm:^3.1.1":
   version: 3.1.1
   resolution: "exponential-backoff@npm:3.1.1"
@@ -7630,7 +7821,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-glob@npm:^3.0.3, fast-glob@npm:^3.2.12, fast-glob@npm:^3.2.7, fast-glob@npm:^3.3.2":
+"fast-glob@npm:^3.0.3, fast-glob@npm:^3.2.12, fast-glob@npm:^3.2.7, fast-glob@npm:^3.3.0, fast-glob@npm:^3.3.2":
   version: 3.3.2
   resolution: "fast-glob@npm:3.3.2"
   dependencies:
@@ -8415,6 +8606,18 @@ __metadata:
     domutils: "npm:^2.0.0"
     entities: "npm:^2.0.0"
   checksum: 10c0/f80d3de85034ffac90706591e97722465ec44a54f24fb9b19c9710eefa7e4bf9944159d6f292bc12431239d7369114d87cf44dff553519e22f1e9e17c9aad2fd
+  languageName: node
+  linkType: hard
+
+"htmlparser2@npm:^9.1.0":
+  version: 9.1.0
+  resolution: "htmlparser2@npm:9.1.0"
+  dependencies:
+    domelementtype: "npm:^2.3.0"
+    domhandler: "npm:^5.0.3"
+    domutils: "npm:^3.1.0"
+    entities: "npm:^4.5.0"
+  checksum: 10c0/394f6323efc265bbc791d8c0d96bfe95984e0407565248521ab92e2dc7668e5ceeca7bc6ed18d408b9ee3b25032c5743368a4280d280332d782821d5d467ad8f
   languageName: node
   linkType: hard
 
@@ -9250,7 +9453,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jiti@npm:^2.1.2, jiti@npm:^2.4.2":
+"jiti@npm:^2.1.2, jiti@npm:^2.4.1, jiti@npm:^2.4.2":
   version: 2.4.2
   resolution: "jiti@npm:2.4.2"
   bin:
@@ -9894,6 +10097,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"mdn-data@npm:2.12.2":
+  version: 2.12.2
+  resolution: "mdn-data@npm:2.12.2"
+  checksum: 10c0/b22443b71d70f72ccc3c6ba1608035431a8fc18c3c8fc53523f06d20e05c2ac10f9b53092759a2ca85cf02f0d37036f310b581ce03e7b99ac74d388ef8152ade
+  languageName: node
+  linkType: hard
+
 "mdsvex@npm:^0.11.2":
   version: 0.11.2
   resolution: "mdsvex@npm:0.11.2"
@@ -10014,6 +10224,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"minimatch@npm:^10.0.1":
+  version: 10.0.1
+  resolution: "minimatch@npm:10.0.1"
+  dependencies:
+    brace-expansion: "npm:^2.0.1"
+  checksum: 10c0/e6c29a81fe83e1877ad51348306be2e8aeca18c88fdee7a99df44322314279e15799e41d7cb274e4e8bb0b451a3bc622d6182e157dfa1717d6cda75e9cd8cd5d
+  languageName: node
+  linkType: hard
+
 "minimatch@npm:^3.0.4, minimatch@npm:^3.1.1, minimatch@npm:^3.1.2":
   version: 3.1.2
   resolution: "minimatch@npm:3.1.2"
@@ -10032,7 +10251,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:^9.0.0, minimatch@npm:^9.0.4":
+"minimatch@npm:^9.0.0, minimatch@npm:^9.0.3, minimatch@npm:^9.0.4":
   version: 9.0.5
   resolution: "minimatch@npm:9.0.5"
   dependencies:
@@ -11901,6 +12120,13 @@ __metadata:
     ansi-styles: "npm:^5.0.0"
     react-is: "npm:^17.0.1"
   checksum: 10c0/0cbda1031aa30c659e10921fa94e0dd3f903ecbbbe7184a729ad66f2b6e7f17891e8c7d7654c458fa4ccb1a411ffb695b4f17bbcd3fe075fabe181027c4040ed
+  languageName: node
+  linkType: hard
+
+"pretty-hrtime@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "pretty-hrtime@npm:1.0.3"
+  checksum: 10c0/67cb3fc283a72252b49ac488647e6a01b78b7aa1b8f2061834aa1650691229081518ef3ca940f77f41cc8a8f02ba9eeb74b843481596670209e493062f2e89e0
   languageName: node
   linkType: hard
 
@@ -14648,6 +14874,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"upath@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "upath@npm:2.0.1"
+  checksum: 10c0/79e8e1296b00e24a093b077cfd7a238712d09290c850ce59a7a01458ec78c8d26dcc2ab50b1b9d6a84dabf6511fb4969afeb8a5c9a001aa7272b9cc74c34670f
+  languageName: node
+  linkType: hard
+
 "update-browserslist-db@npm:^1.1.1":
   version: 1.1.1
   resolution: "update-browserslist-db@npm:1.1.1"
@@ -15118,6 +15351,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "web@workspace:apps/next-app"
   dependencies:
+    "@master/css": "npm:^2.0.0-rc.47"
+    "@master/css-cli": "npm:^2.0.0-rc.47"
+    "@master/css.react": "npm:^2.0.0-rc.47"
     "@repo/eslint-config": "npm:*"
     "@repo/typescript-config": "npm:*"
     "@repo/ui": "npm:*"

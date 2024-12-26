@@ -5,12 +5,15 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack --port 3001",
-    "build": "next build",
+    "build": "next build && mcss render \".next/**/*.html\"",
     "start": "next start",
     "lint": "next lint --max-warnings 0",
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
+    "@master/css": "^2.0.0-rc.47",
+    "@master/css-cli": "^2.0.0-rc.47",
+    "@master/css.react": "^2.0.0-rc.47",
     "@repo/ui": "*",
     "next": "^15.0.0",
     "react": "^19.0.0",
