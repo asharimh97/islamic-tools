@@ -66,6 +66,9 @@ export default function Home() {
         <Button appName="web" className={styles.secondary}>
           Open alert
         </Button>
+        <p className="font:40 italic m:12px text:center font-family:$(font-geist-sans)">
+          Percobaan Master CSS
+        </p>
       </main>
       <footer className={styles.footer}>
         <a
